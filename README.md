@@ -2,5 +2,4 @@ practice
 ========
 
 Practice 01:
- Bubble sort
- Binary search algorithm
+ "bubble sort" and "binary search algorithm"
