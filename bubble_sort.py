@@ -18,6 +18,7 @@ def bubble_sort(List1=[1,2,3]):
 """
    subroutine: find_key(key,List)
       Find 'key' out of a sorted list 'List'
+
 """
 def find_key(key=2, List=[1,2,3]):
    
@@ -47,14 +48,14 @@ def find_key(key=2, List=[1,2,3]):
    Try bubble_sort(List) and find_key(key,List).
 """
 List=[3,4,5,6,-1,-3,-5,2,9]
-key=6
+key=10
 
-print(List)
+print "Original list:\n",List,"\n"
 
 List=bubble_sort(List)
-print(List)
+print "Sorted list:\n",List,"\n"
 
-print "key value ",key," is found at ",find_key(key,List),".\n"
+print "Key value ",key," is found at ",find_key(key,List),".\n"
 
 
 
